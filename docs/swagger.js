@@ -1,4 +1,3 @@
-// /docs/swagger.js
 const swaggerJsDoc = require('swagger-jsdoc');
 
 const swaggerOptions = {
@@ -15,7 +14,7 @@ const swaggerOptions = {
       },
     ],
   },
-  apis: [], // Omitido, pois definiremos as rotas manualmente
+  apis: [],
 };
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
@@ -170,7 +169,7 @@ swaggerDocs.paths = {
   },
   '/clientes/{nome}': {
     get: {
-      summary: 'Busca cliente pelo nome',
+      summary: 'Busca o cliente pelo nome',
       parameters: [
         {
           name: 'nome',
