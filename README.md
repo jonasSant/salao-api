@@ -17,13 +17,17 @@ Esta API foi desenvolvida utilizando Node.js e Express, com uma conexão a um ba
 
 1. **Clone o repositório:**
    ```bash
-   git clone <URL do repositório>
-   cd <nome do diretório>
-
+   git clone https://github.com/jonasSant/salaoBackend
+   cd salaoBackend
+   
 ## Configuração do MySQL
 
  **Crie um banco de dados chamado salao, contendo as tabelas: cortes, gastos e clientes**
- Para facilicitar vou incluir o docx da estrutura do banco 
+**Para facilicitar vou incluir o docx da estrutura do banco** 
 
- Em alguns commits pretendo subir algum cliente para consumir a API no front
+## Documentação Swagger
+A api inclui um arquivo Swagger para explicar as rotas, ele também é servido na rota /docs
+
+ Em alguns commits pretendo subir o cliente que consome a API no front
+ Por se tratar de um servidor local não fiz uma configuração detalhada do Cors da aplicação.
 
