@@ -23,7 +23,8 @@ Esta API foi desenvolvida utilizando Node.js e Express, com uma conexão a um ba
 
 
 **Entre na pasta raiz**
-       cd salaoBackend
+        
+         cd salaoBackend
 
 **Iniciando o NPM**
          
