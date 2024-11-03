@@ -18,20 +18,21 @@ Esta API foi desenvolvida utilizando Node.js e Express, com uma conexão a um ba
  **Clone o repositório:**
 
    
-       ```bash
+       
          git clone https://github.com/jonasSant/salaoBackend
 
-         
-         cd salaoBackend`
+
+**Entre na pasta raiz**
+       cd salaoBackend
 
 **Iniciando o NPM**
-         ```bash
-             npm install
+         
+       npm install
 
 
 ## Crie um arquivo .env com as seguintes variáveis:
 
-    ```bash
+    
        DB_HOST=
        DB_USER=
        DB_PASSWORD=
