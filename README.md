@@ -44,6 +44,10 @@ Esta API foi desenvolvida utilizando Node.js e Express, com uma conexão a um ba
  **Crie um banco de dados chamado salao, contendo as tabelas: cortes, gastos e clientes**
 **Para facilicitar vou incluir o docx da estrutura do banco** 
 
+
+     doc_db_salao
+
+
 ## Documentação Swagger
 A api inclui um arquivo Swagger para explicar as rotas, em /docs
 
